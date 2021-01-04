@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'registration.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'registration_api', # registration_api
+        'USER': 'postgres', # your localhost postgres user
+        'PASSWORD': '1234', # your localhost postgres password
+        'HOST': '127.0.0.1', # your localhost postgres host
+        'PORT': '5432', # your localhost postgres port
     }
 }
 
