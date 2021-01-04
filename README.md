@@ -12,6 +12,8 @@ Virtualenv
 
 PostgreSQL's Database named "registration_api"
 
+Setup DATABASES on ./registration/settings.py with your local PostgreSQL config.
+
 All the application requisites are on requirements.txt root folder
 
 ### Installing
