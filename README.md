@@ -1,6 +1,6 @@
 # Django API
 
-Registration customers Django Restful API
+Customer's registration Django Restful API
 
 ## Getting Started
 
